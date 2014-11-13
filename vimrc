@@ -24,3 +24,4 @@ source ~/.vim/plugins.vim
 source ~/.vim/functions.vim
 " Auto commands.
 source ~/.vim/autocmds.vim
+let g:syntastic_python_flake8_post_args='--ignore=E501'
